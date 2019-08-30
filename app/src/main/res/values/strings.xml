@@ -1,5 +1,4 @@
 <resources>
     <string name="app_name">My Barcode Scanner</string>
-    <string name="open_camera">Click to Read the Barcode</string>
-    <string name="barcode_header">Barcod Scanner</string>
+
 </resources>
