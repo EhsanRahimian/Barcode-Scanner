@@ -5,20 +5,25 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="#bee5ee"
     tools:context="com.nicootech.mybarcodescanner.MainActivity">
 
     <Button
         android:layout_width="wrap_content"
+        android:background="#E9A2A1"
         android:layout_height="wrap_content"
-        android:text="ScanCode Bar"
+        android:text="Open Scanner"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:textSize="16sp"
         android:id="@+id/btn_scan"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Result"
-        android:textSize="22sp"
+        android:hint="Result"
+        android:textColor="#b71c1c"
+        android:textSize="25sp"
         android:layout_marginTop="20dp"
         android:gravity="center"
         android:id="@+id/result_text"/>
