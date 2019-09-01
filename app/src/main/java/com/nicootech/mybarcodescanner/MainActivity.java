@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         resultTextView = findViewById(R.id.result_text);
         scan_btn = findViewById(R.id.btn_scan);
         if (Build.VERSION.SDK_INT >= 23) {
-            requestPermissions(new String[]{Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE}, 2);
+            requestPermissions(new String[]{Manifest.permission.CAMERA}, 2);
 
             scan_btn.setOnClickListener(new View.OnClickListener() {
                 @Override
